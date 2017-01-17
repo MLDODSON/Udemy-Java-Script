@@ -47,6 +47,11 @@ console.log(birthYear);
 var ageGlenn = 30;
 var ageJane = 30;
 
-ageGlenn = (3 + 5) * 4 - 6;
-console.log(ageGlenn);
+ageGlenn = ageJane = (3 + 5) * 4 - 6;
+//ageGlenn = ageJane = 26
+//ageGlenn = 26
 
+ageGlenn++;
+ageJane *= 2; 
+console.log(ageGlenn);
+console.log(ageJane);
