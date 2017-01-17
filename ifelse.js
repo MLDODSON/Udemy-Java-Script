@@ -70,12 +70,21 @@ if (isMarried === 'yes') {
     console.log(name + ' will marry very soon :)');
 }
 
-isMarried = false;
+isMarried = true;
 
-if(isMarried) {
+/*if(isMarried) {
     console.log('YES!');
 } else {
     console.log('NO!');
+}
+*/
+
+if(isMarried) {
+    console.log('YES!');
+}
+
+if (23 == "23") {
+    console.log('Something to print...');
 }
 
 
