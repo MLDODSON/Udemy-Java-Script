@@ -92,14 +92,32 @@ if (23 == "23") {
 
 //Lecture: boolean logic and switch
 
-var age = 25;
+var age = 20;
 
 if (age < 20) {
     console.log('Mike is a teenager.');
-} else if (age > 20 && age < 30) {
-    console.log('Mike is a young man.')
+} else if (age >= 20 && age < 30) {
+    console.log('Mike is a young man.');
 } else {
-    console.log('Mike is a man.')
+    console.log('Mike is a man.');
+}
+
+var job = 'driver';
+
+job = prompt('What does Mike do?');
+
+switch (job) {
+    case 'teacher':
+        console.log('Mike teaches kids science.');
+        break;
+    case 'driver':
+        console.log('Mike is an Uber driver in Houston.');
+        break;
+    case 'artist':
+        console.log('Mike is a graphic artist in Miami.');
+        break;
+    default:
+        console.log('Mike does something else');
 }
 
 
