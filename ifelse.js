@@ -60,6 +60,7 @@ console.log(ageJane);
 
 //Lecture: if/else statements
 
+/*
 var name = 'Mike';
 var age = 42;
 var isMarried = 'yes';
@@ -79,6 +80,7 @@ isMarried = true;
 }
 */
 
+/*
 if(isMarried) {
     console.log('YES!');
 }
@@ -86,8 +88,19 @@ if(isMarried) {
 if (23 == "23") {
     console.log('Something to print...');
 }
+*/
 
+//Lecture: boolean logic and switch
 
+var age = 25;
+
+if (age < 20) {
+    console.log('Mike is a teenager.');
+} else if (age > 20 && age < 30) {
+    console.log('Mike is a young man.')
+} else {
+    console.log('Mike is a man.')
+}
 
 
 
