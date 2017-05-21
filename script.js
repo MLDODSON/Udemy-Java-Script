@@ -28,15 +28,23 @@ var job, isMarried;
 job = "web developer";
 isMarried = true;
 
-console.log(name + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried + '.');
+//console.log(name + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried + '.');
 
 //variable mutation
 age = "twenty seven";
 job = "graphic srtist";
-console.log(name + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried + '.');
+//console.log(name + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried + '.');
 
 
-var lastName = prompt("What is your last name?");
-console.log(lastName);
+//var lastName = prompt("What is your last name?");
+//console.log(lastName);
 
-alert(name + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried + '.'); 
+//alert(name + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried + '.');
+
+var city = "St. Louis";
+var myTeam = "Cardinals";
+console.log("The " + city + " " + myTeam + " are my favorite baseball team!");
+
+city = "New York";
+myTeam = "Mets";
+console.log("I used to hate the " + city + " " + myTeam + "!");
