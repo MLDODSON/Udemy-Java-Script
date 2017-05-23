@@ -52,6 +52,7 @@ console.log("I used to hate the " + city + " " + myTeam + "!");
 */
 
 //Lecture: operators
+/*
 var now = 2017;
 var birthYear = 2017 - 38;
 
@@ -69,5 +70,35 @@ ageJeff /= 2;
 
 console.log(ageMike);
 console.log(ageJeff);
+*/
+
+// Lecture: if/else statements.
+
+var name = "Jeff";
+var age = 30;
+var isMarried = "yes";
+
+if (isMarried === "yes") {
+	console.log(name + " is married!");
+} else {
+	console.log(name + " might marry someday.");
+}
+
+var name = "Slick Rick";
+var bassPlayer = "no";
+
+if (bassPlayer === "yes") {
+	console.log(name + " is a bass player.");
+} else {
+	console.log(name + " does not play bass guitar.");
+}
+
+bassPlayer = false;
+
+if (bassPlayer) {
+	console.log("HELL" + " YES!");
+} else {
+	console.log("HECK" + " NO!");
+}
 
 
