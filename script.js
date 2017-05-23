@@ -52,5 +52,22 @@ console.log("I used to hate the " + city + " " + myTeam + "!");
 */
 
 //Lecture: operators
+var now = 2017;
 var birthYear = 2017 - 38;
+
+birthYear = now - 38 * 2;
+
 console.log(birthYear);
+
+var ageMike = 30;
+var ageJeff = 30;
+
+ageMike = ageJeff = (3+5) * 4-6;
+
+ageMike++;
+ageJeff /= 2;
+
+console.log(ageMike);
+console.log(ageJeff);
+
+
