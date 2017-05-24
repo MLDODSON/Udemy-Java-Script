@@ -73,6 +73,7 @@ console.log(ageJeff);
 */
 
 // Lecture: if/else statements.
+/*
 
 var name = "Jeff";
 var age = 30;
@@ -99,6 +100,73 @@ if (bassPlayer) {
 	console.log("HELL" + " YES!");
 } else {
 	console.log("HECK" + " NO!");
+}
+*/
+
+// Lecture boolean logic and switch.
+
+var age = 16;
+
+if (age < 20) {
+	console.log("John is a teenager.");
+} else {
+	console.log("John is a man.");
+}
+
+var weight = 130;
+
+if (weight > 130) {
+	console.log("Jane is overweight.");
+} else {
+	console.log("Jane is not overweight.");
+}
+
+var age = 25;
+
+if (age < 20) {
+	console.log("John is a teenager.");
+} else if (age > 20 && age < 30) {
+	console.log("John is a young man.");
+} else {
+	console.log("John is a man.");
+}
+
+var weight = 140;
+
+if (weight < 130) {
+	console.log("Jane is underweight.");
+} else if (weight > 130 && weight < 142) {
+	console.log("Jane is a good weight.");
+} else {
+	console.log("John is a overweight.");
+}
+
+var weight = 150;
+
+if (weight < 130) {
+	console.log("Jane is underweight.");
+} else if (weight > 130 && weight < 142) {
+	console.log("Jane is a good weight.");
+} else {
+	console.log("John is a overweight.");
+}
+
+var job = "lawyer";
+
+job = prompt("What does Glenny do?");
+
+switch (job) {
+	case "teacher":
+		console.log("Glenny teaches kids.");
+		break;
+	case "singer":
+		console.log("Glenny is a jazz singer.");
+		break;
+	case "lawyer":
+		console.log("Glenny practices the law.");
+		break;
+	default:
+		console.log("Glenny does something else.");
 }
 
 
