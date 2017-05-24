@@ -104,6 +104,7 @@ if (bassPlayer) {
 */
 
 // Lecture boolean logic and switch.
+/*
 
 var age = 16;
 
@@ -168,5 +169,42 @@ switch (job) {
 	default:
 		console.log("Glenny does something else.");
 }
+*/
+
+// Coding Challange
+
+var heightJeff = 198;
+var heightMike = 196;
+var ageJeff = 23;
+var ageMike = 25;
+
+var scoreJeff = heightJeff + 5 * ageJeff;
+var scoreMike = heightMike + 5 * ageMike;
+
+/*
+if (scoreJeff > scoreMike) {
+	console.log("Jeff wins the game with " + scoreJeff + " points!");
+} else if (scoreMike > scoreJeff) {
+	console.log("Mike wins the game with " + scoreMike + " points!");
+} else {
+	console.log("It is a tie.");
+}
+*/
+
+var heightJane = 158;
+var ageJane = 32;
+var scoreJane = heightJane + 5 * ageJane;
+
+if (scoreJeff > scoreMike && scoreJeff > scoreJane) {
+	console.log("Jeff wins the game with " + scoreJeff + " points!");
+} else if (scoreMike > scoreJeff && scoreMike > scoreJane) {
+	console.log("Mike wins the game with " + scoreMike + " points!"); 
+} else if (scoreJane > scoreJeff && scoreJane > scoreMike) {
+	console.log("Jane wins the game with " + scoreJane + " points!"); 	
+} else {
+	console.log("The game is a tie!");
+}
+
+
 
 
