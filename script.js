@@ -172,6 +172,7 @@ switch (job) {
 */
 
 // Coding Challange
+/*
 
 var heightJeff = 198;
 var heightMike = 196;
@@ -190,7 +191,7 @@ if (scoreJeff > scoreMike) {
 	console.log("It is a tie.");
 }
 */
-
+/*
 var heightJane = 158;
 var ageJane = 32;
 var scoreJane = heightJane + 5 * ageJane;
@@ -205,6 +206,36 @@ if (scoreJeff > scoreMike && scoreJeff > scoreJane) {
 	console.log("The game is a tie!");
 }
 
+*/
 
+// Lecture: Functions
+
+function calculateAge(yearOfBirth) {
+	var age = 2017 - yearOfBirth;
+	return age;
+}
+
+var ageJeff = calculateAge(1986);
+var ageMike = calculateAge(1968);
+var ageGlenny = calculateAge(1946);
+
+
+function yearsUntilRetirement(name, year) {
+	var age = calculateAge(year);
+	var retirement = 65 - age;
+	
+	if (retirement >= 0) {
+		console.log(name + " retires in " + retirement + " years.");
+	} else {
+		console.log(name + " is already retired.");
+	}
+	
+
+	
+}
+	
+yearsUntilRetirement("Jeff", 1986);
+yearsUntilRetirement("Mike", 1968);
+yearsUntilRetirement("Glenny", 1946);
 
 
