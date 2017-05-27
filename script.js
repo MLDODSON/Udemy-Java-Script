@@ -263,6 +263,7 @@ if (x === 5) {
 */
 
 // Lecture: Arrays
+/*
 
 var names = ["Jeff", "Glenny", "Mike"];
 var year = new Array(1954, 1971, 1968);
@@ -292,6 +293,42 @@ alert(glenny.indexOf(1971));
 if (glenny.indexOf("teacher") === -1); {
 	console.log("Glenny is NOT a teacher.");
 }
+*/
 
+// Lecture: Objects
+/*
+
+var glenny = {
+	name: "Glenny",
+	lastName: "Gomez",
+	yearOfBirth: 1971,
+	job: "teacher",
+	isMarried: true	
+};
+
+console.log(glenny);
+
+// How to retrive a specific object
+console.log(glenny.lastName);
+console.log(glenny["job"]);
+
+var xyz = "yearOfBirth";
+console.log(glenny[xyz]);
+
+glenny.lastName = "Dodson";
+glenny["job"] = "lawyer";
+
+console.log(glenny);
+
+// Another way of creating an object
+var glenny = new Object();
+glenny.name = "Glenny";
+glenny.lastName = "Gomez";
+glenny["yearOfBirth"] = 1971;
+glenny["job"] = "teacher";
+glenny["isMarried"] = true;
+
+console.log(glenny);
+*/
 
 
