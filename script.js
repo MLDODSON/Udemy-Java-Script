@@ -241,7 +241,7 @@ yearsUntilRetirement("Glenny", 1946);
 */
 
 // Lecture: Statements and Expressions
-
+/*
 // This is a function statement
 function someFun(par) {
 	//code
@@ -260,7 +260,38 @@ var x = 3;
 if (x === 5) {
 	//do something
 }
+*/
 
+// Lecture: Arrays
+
+var names = ["Jeff", "Glenny", "Mike"];
+var year = new Array(1954, 1971, 1968);
+
+console.log(names[1]);
+//to mutate names
+names[0] = "Paola";
+console.log(names);
+
+var nfcWest = ["Rams", "Seahawks", "Niners", "Cardinals"];
+var city = new Array(2016, 1976, 1946, 1988);
+
+console.log(nfcWest[3]);
+
+//several data types can be combined in an array i.e.
+var glenny = ["Glenny", "Gomez", 1971, "singer", true];
+
+glenny.push("red");
+glenny.unshift("Mrs.");
+// pop removes an element from the end
+glenny.pop();
+//shift removes an element from the beginning
+glenny.shift();
+console.log(glenny);
+
+alert(glenny.indexOf(1971));
+if (glenny.indexOf("teacher") === -1); {
+	console.log("Glenny is NOT a teacher.");
+}
 
 
 
