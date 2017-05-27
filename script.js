@@ -209,6 +209,7 @@ if (scoreJeff > scoreMike && scoreJeff > scoreJane) {
 */
 
 // Lecture: Functions
+/*
 
 function calculateAge(yearOfBirth) {
 	var age = 2017 - yearOfBirth;
@@ -237,5 +238,29 @@ function yearsUntilRetirement(name, year) {
 yearsUntilRetirement("Jeff", 1986);
 yearsUntilRetirement("Mike", 1968);
 yearsUntilRetirement("Glenny", 1946);
+*/
+
+// Lecture: Statements and Expressions
+
+// This is a function statement
+function someFun(par) {
+	//code
+}
+
+// This is a function expression
+var someFun = function(par) {
+	//code
+}
+
+//Expressions produce an outcome i.e.
+3 + 4;
+var x = 3;
+
+//Statements perform an action but do not produce an immediate value i.e.
+if (x === 5) {
+	//do something
+}
+
+
 
 
