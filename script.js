@@ -332,3 +332,44 @@ console.log(glenny);
 */
 
 
+// Lecture: Objects and Methods
+//v1.0
+/*
+var glenny = {
+	name: "Glenny",
+	lastName: "Gomez",
+	yearOfBirth: 1971,
+	job: "teacher",
+	isMarried: true,
+	family: ["Mike", "Paola", "Darda"], 
+	calculateAge: function() {
+		return 2017 - this.yearOfBirth;
+	}
+};
+
+
+//console.log(glenny.calculateAge(1971));
+console.log(glenny.calculateAge());
+
+var age = glenny.calculateAge();
+glenny.age = age;
+
+console.log(glenny);
+*/
+
+//v2.0
+var glenny = {
+	name: "Glenny",
+	lastName: "Gomez",
+	yearOfBirth: 1971,
+	job: "teacher",
+	isMarried: true,
+	family: ["Mike", "Paola", "Darda"], 
+	calculateAge: function() {
+		//return 2017 - this.yearOfBirth;
+		this.age = 2017 - this.yearOfBirth;
+	}
+};
+
+glenny.calculateAge();
+console.log(glenny);
