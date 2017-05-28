@@ -358,6 +358,7 @@ console.log(glenny);
 */
 
 //v2.0
+/*
 var glenny = {
 	name: "Glenny",
 	lastName: "Gomez",
@@ -373,3 +374,59 @@ var glenny = {
 
 glenny.calculateAge();
 console.log(glenny);
+*/
+
+// Lecture Loops
+
+//for loops
+
+for (var i = 0; i < 21; i++) {
+	console.log(i);
+}
+
+var names = ["Jeff", "Kevin", "Laurie", "Darren", "Hope"];
+
+for (var i = 0; i < 5; i++) {
+	console.log(names[i]);
+}
+
+var teams = ["Rams", "Cardinals", "Blues", "76ers", "Warriors"];
+
+for (var i = 0; i < teams.length; i++) {
+	console.log(teams[i]);
+}
+//.length can be used when the amount of elements in the array is unknown.
+
+for (var i = names.length - 1; i >= 0; i--) {
+	console.log(names[i]);
+}
+
+//While loop
+var i = 0;
+while(i < names.length) {
+	console.log(names[i]);
+	i++;
+}
+
+var i = 0;
+while(i < teams.length) {
+	console.log(teams[i]);
+	i++;
+}
+
+//to break a loop
+for (var i = 1; i <= 10; i++) {
+	console.log(i);
+	
+	if (i === 6) {
+		break;
+	}
+}
+
+for (var i = 1; i <= 10; i++) {
+	if (i === 6) {
+		continue;
+    } 
+	
+	console.log(i);
+}
