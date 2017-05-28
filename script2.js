@@ -81,3 +81,48 @@ console.log(yearOfBirth + 11);
 console.log(age + 11);
 console.log(weight >= 250);
 
+// If else statement practice
+/*
+var name = "Jeff";
+var age = 30;
+var isMarried = "yes";
+
+if (isMarried === "yes") {
+	console.log(name + " is married!");
+} else {
+	console.log(name + " might marry someday.");
+}
+*/
+
+var myName = "Kevin";
+var wantsChicken = "yes";
+var needsCarRepair = "yes";
+var dessert = "chocolate cake";
+var autoShop = "Walmart";
+var tireShop = "Dobbs";
+
+if (wantsChicken === "no") {
+	console.log(myName + " wants chicken for dinner");
+} else {
+	console.log(myName + " wants steak and onion rings for dinner.");
+}
+
+if (wantsChicken === "no") {
+	console.log(myName + " really wants chicken for dinner " + dessert + " later."); 
+} else {
+	console.log(myName + " wants barbeque ribs and " + dessert + " afterwards.");
+}
+
+if (needsCarRepair === "no") {
+	console.log(myName + " will go to " + autoShop + " to get a new tire."); 
+} else {
+	console.log(myName + " will go to " + tireShop + " if " + autoShop + " is not cheaper.");
+}
+
+if (needsCarRepair === "yes") {
+	console.log(myName + " will go to " + autoShop + " to get a new tire. \nLater " + myName + " will eat his " + dessert + "."); 
+} else {
+	console.log(myName + " will go to " + tireShop + " if " + autoShop + " is not cheaper.");
+}
+
+
