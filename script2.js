@@ -51,3 +51,33 @@ console.log(patriotFan);
 
 var likesToCode = true;
 console.log(likesToCode);
+
+
+var withBreaks = "Hello World. \nMy name is Jennifer. \nWhat is your name?";
+console.log(withBreaks);
+
+// Some variable mutation
+var isMarried = false;
+console.log("Is " + nickname + " married? " + isMarried + ".");
+
+var favSport = "basketball";
+console.log("Is " + favSport + " season almost over?");
+
+//var bestHero = prompt("Who is your favorite super hero?");
+//console.log(bestHero);
+
+//var favSport = prompt("What sport do you still play?");
+//console.log(favSport);
+
+//alert(bestHero + " has a new movie coming out in July!");
+
+// Work with some operators
+console.log(5 * 16 + 12);
+console.log(36 / 6 * 5);
+console.log(36 >= 36);
+console.log(20 < 50);
+console.log(36 >= 47);
+console.log(yearOfBirth + 11);
+console.log(age + 11);
+console.log(weight >= 250);
+
