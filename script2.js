@@ -1,6 +1,6 @@
 // Lecture: string variables
 // Write 5 string variables about Mike
-
+/*
 var nickname = "Big Mike";
 console.log(nickname);
 
@@ -94,6 +94,7 @@ if (isMarried === "yes") {
 }
 */
 
+/*
 var myName = "Kevin";
 var wantsChicken = "yes";
 var needsCarRepair = "yes";
@@ -124,5 +125,199 @@ if (needsCarRepair === "yes") {
 } else {
 	console.log(myName + " will go to " + tireShop + " if " + autoShop + " is not cheaper.");
 }
+
+var price = 15.00; // price of a hammer I want
+var money = 20.00; // amount of cash I have to spend
+
+if(money >= price) {
+	console.log("Buy the hammer.");
+} else {
+	console.log("Don't buy the hammer.");
+}
+
+var a = 1;
+var b = 2;
+
+if (a > b) {
+  console.log("a is greater than b.");
+} else {
+  console.log("a is less than or equal to b.");
+}
+
+// Else if statements
+var weather = "sunny";
+
+if (weather === "snow") {
+  console.log("Bring a coat.");
+} else if (weather === "rain") {
+  console.log("Bring a rain jacket.");
+} else {
+  console.log("Wear what you have on.");
+}
+
+var money = 100.50;
+var price = 100.50;
+
+if (money > price) {
+  console.log("You paid extra, here's your change.");
+} else if (money === price) {
+  console.log("You paid the exact amount, have a nice day!");
+} else {
+  console.log("That's not enough, you still owe me money.");
+}
+
+var runner = "Speedy";
+var position = 1;
+var medal;
+
+if(position === 1) {
+  medal = "gold";
+} else if(position === 2) {
+  medal = "silver";
+} else if(position === 3) {
+  medal = "bronze";
+} else {
+  medal = "pat on the back";
+}
+
+console.log(runner + " received a " + medal + " medal.");
+
+var route = "travel";
+
+if (route === "construction") {
+	console.log("Take highway seventy.");
+} else if (route === "accident") {
+	console.log("Take South Grand.");
+} else {
+	console.log("Take your normal way.");
+}
+	
+// Lecture boolean logic and switch.
+
+var benchPress = 300;
+
+if (benchPress < 300) {
+	console.log("Kevin needs to workout more.");
+} else {
+	console.log("Kevin is really strong!");
+}
+
+var benchPress = 260;
+
+if (benchPress < 300) {
+	console.log("Kevin needs to workout more.");
+} else {
+	console.log("Kevin is really strong!");
+}
+
+
+
+var flight = 600;
+
+if (flight < 580) {
+	console.log("We will drive.");
+} else if (flight > 520 && flight < 590) {
+	console.log("We will catch a train.");
+} else {
+	console.log("We will fly.");
+}
+
+var flight = 480;
+
+if (flight < 580) {
+	console.log("We will drive.");
+} else if (flight > 520 && flight < 590) {
+	console.log("We will catch a train.");
+} else {
+	console.log("We will fly.");
+}
+
+var job = "web developer";
+
+//job = prompt("What does Rod do?");
+
+switch (job) {
+	case "teacher":
+		console.log("Rod teaches kids.");
+		break;
+	case "fitness instructer":
+		console.log("Rod works people out.");
+		break;
+	case "web developer":
+		console.log("Rod is a dynamic web developer.");
+		break;
+	default:
+		console.log("Rod does something else.");
+}
+
+var vacation = "Dominican Republic";
+
+//vacation = prompt("Where do you want to go on your next vacation?");
+
+switch (vacation) {
+	case "Dominican Republic":
+		console.log("I want to lay on the sandy beaches and swim in the ocean.");
+		break;
+	case "France":
+		console.log("I would love to visit Paris.");
+		break;
+	case "Orlando":
+		console.log("I would love to visit Disney World with the kids.");
+		break;
+	default:
+		console.log("I have not made up my mind yet.");
+}
+
+// Functions practice
+function calculateAge(yearOfBirth) {
+	var age = 2017 - yearOfBirth;
+	return age;
+}
+
+var ageJeff = calculateAge(1975);
+var ageMike = calculateAge(1965);
+var ageGlenny = calculateAge(1976);
+
+console.log(ageJeff, ageMike, ageGlenny);
+
+
+function poundsToLoss(currentWeight) {
+	var weight = currentWeight - 200;
+	return weight;
+}
+	
+var weightJeff = poundsToLoss(325);
+var weightMike = poundsToLoss(275);
+var weightGlenny = poundsToLoss(204);
+
+console.log(weightJeff, weightMike, weightGlenny);
+*/
+
+function myFunction() {
+	console.log("HELLO WORLD");
+}
+
+function songLoop() {
+	console.log("Keep on");
+    console.log("with the force don't stop");
+    console.log("Don't stop till you get enough");
+}
+
+// Function Arguments
+function sayHello(person) {
+	console.log("Hello there " + person + "!");
+}
+
+function math(a, b) {
+	console.log(a * b);
+}
+math(12,10);
+
+function favBand(group1, group2, group3) {
+	console.log("I love " + group1 + "!");
+	console.log("I love " + group2 + "!");
+	console.log("I love " + group3 + "!");
+}
+favBand("Parliament", "Rick James and the Stone City Band", "Slave");
 
 
