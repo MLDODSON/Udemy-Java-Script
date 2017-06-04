@@ -320,4 +320,156 @@ function favBand(group1, group2, group3) {
 }
 favBand("Parliament", "Rick James and the Stone City Band", "Slave");
 
+// Functions: The Return Keyword
+function square(x) {
+	return x * x;
+}
+
+function capitalize(str) {
+	return str.charAt(0) .toUpperCase() + str.slice(1);
+}
+
+var city = "toronto";
+var capital = capitalize(city);
+
+function test(x,y) {
+	return y - x;
+}
+
+test(10, 40); //answer is 30
+
+function test(x) {
+	return x * 2; // after the 1st return the function stops running
+	console.log(x);
+	return x/2;
+}
+
+test(40); //answer is 80
+
+//isEven
+
+
+//function isEven(num) {
+	//if(num % 2 === 0) {
+		//return true;
+	//} else {
+		//return false;
+// }
+	//return true if even
+	//return false if not
+//}
+
+//or
+
+function isEven(num) {
+	return num % 2 === 0; 
+}
+
+function factorial(num) {
+	//define a result var
+	var result = 1;
+	//calculate factorial and store value in result
+	for(var i = 2; i <= num; i++) {
+		result *= i;
+	}
+	//return the result variable
+	return result;
+}
+
+function kebabToSnake(str) {
+	//replace all '-' with "_" 's
+	var newStr = str.replace(/-/g , "_");
+	//return str
+	return newStr;	
+}
+
+function letterChange(str) {
+	var carStr = str.replace(/heck/g , "funk");
+	return carStr;
+}
+
+// JS Scope
+//If a variable is defined outside a function it can be used inside of it
+function doMath() {
+	var x = 40;
+	console.log(x);
+}
+
+var y = 100;
+
+function doNumber() {
+	y = 850;
+	console.log(y);
+}
+//y will become 850 in or outside the function now
+
+var phrase = "What's Up!"
+
+function doSomething() {
+	var phrase = "See you later."
+	console.log(phrase);
+}
+//Inside the function phrase is "See you later." Oustside it's "What's Up!"
+
+//Higher Order Functions
+function sing(){
+	console.log("Keep on");
+    console.log("with the force don't stop");
+    console.log("Don't stop till you get enough");
+}
+
+//setInterval(sing, 1000);
+//setInterval(function() {
+	//console.log("I am an anonymous function.");
+	//console.log("AWESOME BABY!");
+//}, 2000);
+
+//Arrays Practice
+//arrays are indexed starting at 0
+//arrays can hold any type of property
+//arrays have a length property
+
+var myAunts = ["May", "Barbara", "Helen", "Celeste", "Jeanette"];
+console.log(myAunts[3]);
+
+myAunts[5] = "Chi Chi";
+
+console.log(myAunts[5]);
+console.log(myAunts[0]);
+
+var superHeroes = ["Spidey", "Batman", "Cap", "Hulk", "Thor", "Wonder Woman"];
+console.log(superHeroes[4]);
+
+superHeroes[5] = "Luke Cage";
+console.log(superHeroes[5]);
+
+//array methods
+
+superHeroes.push("Iron Fist"); //push adds to the end of an array
+console.log(superHeroes[6]);
+
+myAunts.push("Sarah");
+console.log(myAunts[6]);
+
+//pop removes the last item in an array and takes no arguement
+myAunts.pop();
+superHeroes.pop();
+
+myAunts.unshift("Regina"); //unshift adds an item to the start of an array
+console.log(myAunts[0]);
+
+superHeroes.unshift("Beta Ray Bill");
+console.log(superHeroes[0]);
+
+myAunts.shift(); //shift removes the 1st item in an array
+console.log(myAunts[0]);
+
+superHeroes.shift();
+console.log(superHeroes[0]);
+
+myAunts.indexOf("Helen"); //answer 2
+//indexOf will tell you where an item is located at within an array
+
+myAunts.indexOf("Betty"); //answer -1
+//If an item is not in an array it will get a -1
 
