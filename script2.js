@@ -473,3 +473,23 @@ myAunts.indexOf("Helen"); //answer 2
 myAunts.indexOf("Betty"); //answer -1
 //If an item is not in an array it will get a -1
 
+var myFavoriteAunts = myAunts.slice(0,4); //slice is used to copy all or part of an array
+console.log(myFavoriteAunts);
+
+var myAunts = ["May", "Barbara", "Helen", "Celeste", "Jeanette", "Regina", "Chi Chi", "Sarah"];
+var allMyAunts = myAunts.slice();
+console.log(allMyAunts);
+
+var numbers = [22, 48, 55, 68, 72];
+//console.log(numbers[numbers.length]);//This will return an answer of undefined
+
+var nfcTeams = [
+	["Rams", "49ers", "Seahawks", "Cardinals"],
+	["Cowboys", "Eagles", "Giants", "Redskins"],
+	["Bears", "Packers", "Lions", "Vikings"],
+	["Saints", "Falcons", "Panthers", "Bucs"]
+];
+console.log(nfcTeams[0][2]); // This is an example of a nested array
+
+
+

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	font-family: Pacifico;
+	font-size: 30pt;
+	text-align: center;
+	color: black;
+}
+
+h2 {
+	font-family: Asap;
+	font-size: 24pt;
+	color: darkred;
+	margin-left: 50px;
+}
+
+li {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 16pt;
+	color: black;
+	margin-left: 40px;
+}
