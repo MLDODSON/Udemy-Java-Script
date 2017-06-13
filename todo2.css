@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 30pt;
+	text-align: center;
+	color: black;
+}
+
+h2 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 24pt;
+	color: blue;
+}
+
+li {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 16pt;
+	color: black;
+}
