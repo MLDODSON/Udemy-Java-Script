@@ -17,6 +17,7 @@ console.log(drinkingAge);
 
 //Variable Mutation and Type Coercion
 
+/*
 var man = "Doug";
 var age = 46;
 //console.log(man + " is " + age + ".");
@@ -43,5 +44,29 @@ console.log(lastName);
 
 var odor = "stinks";
 alert("Something " + odor + "!");
+*/
+
+//Operators
+
+var now = 2017;
+
+var birthYear = now - 49;
+
+birthYear = now - 26 * 2;
+//2017 - 52
+//1965
+
+console.log(birthYear);
+
+var ageKevin = 40;
+var ageJerry = 40;
+
+ageKevin = ageJerry = (3 + 8) * 5 - 6;
+
+ageKevin++;
+ageJerry--;
+
+console.log(ageKevin);
+console.log(ageJerry);
 
 
