@@ -48,6 +48,7 @@ alert("Something " + odor + "!");
 
 //Operators
 
+/*
 var now = 2017;
 
 var birthYear = now - 49;
@@ -68,5 +69,63 @@ ageJerry--;
 
 console.log(ageKevin);
 console.log(ageJerry);
+*/
+
+//If / else Statements
+
+var person = "Jeff";
+var age = 38;
+var isMarried = "no";
+
+if (isMarried === "yes") {
+	console.log(person + " is a happy married man!");
+} else {
+	console.log(person + " is not married at all.");
+}
+//the else was executed because isMarried does not equal yes.
+
+isMarried = false;
+
+if(isMarried) {
+	console.log("YES!");
+} else {
+	console.log("NO!");
+}
+
+if (14 == "26") {
+	console.log("You are equal!");
+} else {
+	console.log("You are not the same.");
+}
+//The double equal can convert a number to a string. But it is best to use the ===.
+
+
+//Boolean Logic and Switch Statements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
