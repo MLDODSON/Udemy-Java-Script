@@ -201,7 +201,7 @@ switch (job) {
 //Coding challenge
 
 //First create height and age variables for the 2 players
- 
+/* 
 var heightJohn = 180;
 var heightMike = 196;
 var heightEd = 188;
@@ -234,19 +234,154 @@ if(scoreEd >= scoreJohn && scoreEd >= scoreMike) {
 } else {
 	console.log("Folks we have a draw!!");
 }	
+ */
  
+//Functions
+/*
+function ageCalculate(yearOfBirth) {
+	var age = 2017 - yearOfBirth;
+	return age;
+}
+
+var ageJoe = ageCalculate(1990);
+var ageMike = ageCalculate(1968);
+var ageOra = ageCalculate(1948);
+console.log(ageOra);
+
+
+function yearsToRetire(name, year) {
+	var age = ageCalculate(year);
+	var retirement = 65 - age;
+	
+	if(retirement >= 0) {
+	   console.log(name + " retires in " + retirement + " years.");	
+	} else {
+		console.log(name + " has already retired.");
+	}
+	
+}
+
+yearsToRetire("Phil", 1986);
+yearsToRetire("Mike", 1968);
+yearsToRetire("Ora", 1948);
 
 
 
+function yearsToDrink(name, year) {
+	var age = ageCalculate(year);
+	var drinkingAge = 21 - age;
+	
+	if(drinkingAge <= 0) {
+		console.log(name + " let's go have a beer.");
+	} else {
+		console.log(name + " can have a drink in " + drinkingAge + " years.");
+	}
+}
+
+yearsToDrink("Phil", 1986);
+yearsToDrink("Mike", 2004);
+yearsToDrink("Ora", 2010);
+*/
+
+//Arrays
+/*
+var people = ["Bubba", "Casper", "George", "Sylvester"];
+var years = new Array(1972, 1965, 1988, 2006);
+
+console.log(people);
+console.log(people[1]);
+
+console.log(people[2]);
+people[1] = "Bugs Bunny";
+console.log(people);
+
+var george = ["George", "Jefferson", 1988, "Coach", true];
+
+george.push("blue");
+//push adds an element to the end of an array.
+george.unshift("Lord");
+//unshift adds an element at the start of an array.
+george.pop();
+//pop removes an element to the end of an array.
+george.shift();
+//shift removes the element at the start of an array.
+console.log(george);
+
+alert(george.indexOf(1988));
+//indexOf will give the position of an item in an array.
+
+if(george.indexOf("Chef") === -1) {
+	console.log("George is not a chef.");
+}
+*/
+
+//Objects
+/*
+var george = {
+	person: "Geoege",
+	lastName: "Jefferson",
+	yearOfBirth: 1988,
+	job: "coach",
+	isMarried: true
+};
+
+console.log(george);
+console.log(george.lastName);
+console.log(george["yearOfBirth"]);
+
+var x = "job";
+console.log(george[x]);
+
+george.lastName = "Tucker";
+george['job'] = "lawyer";
+
+console.log(george);
+
+var betty = new Object();
+betty.person = "Betty";
+betty.lastName = "Davis";
+betty["yearOfBirth"] = 1975;
+betty["job"] = "pilot";
+betty["isMarried"] = true;
+
+console.log(betty);
+*/
+//Objects and Methods
+
+var kevin = {
+	person: "Kevin",
+	lastName: "Doyle",
+	yearOfBirth: 1973,
+	job: "mechanic",
+	isMarried: true,	
+	family: ["Mike", "Marie", "Angie", "Arlene"],
+	calculateAge: function(yearOfBirth) {
+		return 2017 - yearOfBirth;
+	}
+};
+
+console.log(kevin);
 
 
+var laurie = {
+	person: "Laurie",
+	lastName: "Smith",
+	yearOfBirth: 1963,
+	job: "artist",
+	isMarried: false,	
+	family: ["Mario", "Lois", "Steve", "Barbara", "Evelyn"],
+	calculateAge: function() {
+		return 2017 - this.yearOfBirth;
+	}
+};
 
+console.log(laurie);
+console.log(laurie.calculateAge());
 
+var age = laurie.calculateAge();
+laurie.age = age;
 
-
-
-
-
+console.log(laurie);
 
 
 
