@@ -104,6 +104,12 @@ var full_1 = printFullAge(year);
 var full_2 = printFullAge([2011, 1937, 1986]);
 
 
+var villians = ["Dr. Doom", "Red Skull", "Thanos", "Green Goblin"];
+
+for(i = 0; i < villians.length; i++) {
+	console.log(villians[i]);
+}
+
 
 
 
