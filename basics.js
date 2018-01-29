@@ -385,7 +385,11 @@ console.log(laurie);
 
 
 
+var person = "Julio";
+var career = "Web Developer";
+var food = "pasta";
 
+console.log(person + " the " + career + " loves " + food + ".");
 
 
 
