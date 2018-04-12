@@ -39,4 +39,4 @@ console.log(food.toUpperCase());
 console.log(season2.toUpperCase() + " is the best time to eat " + food2.toLowerCase() + " in " + place.toUpperCase() + ".");
 
 
-//**ARRAYS**
+
