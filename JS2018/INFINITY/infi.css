@@ -1,0 +1,38 @@
+body {
+  background-image: url(infinityback.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110vh;
+}
+
+.gem {
+	font-family: Philosopher;
+	text-align: center;
+	font-size: 93pt;
+	color: #f9cc02;
+    animation: moveInRight 8s ease-out;
+}
+
+.row {
+	text-align: center;
+	margin-top: -15px;	
+}
+
+.doit {
+	text-align: center;
+	margin-top: -19px;
+	font-family: Gugi;
+	font-size: 14pt;
+	color: #f98f04;
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(20rem); }
+  80% {
+    transform: translateX(-1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
