@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JS Buttons</title>
+</head>
+
+<body>
+	
+<h1>Javascript Basics
+	<p>Buttons</p>
+</h1>
+	
+	<input type="button" onClick="setBackgroundToGrey();" value="Set Background to Grey">
+	<br>
+	
+	<input type="button" onClick="clearBackground();" value="Clear Background">
+	<br>
+	
+	<span onclick="setBackgroundToGrey();">Click This Text</span>
+	<br>
+	
+	<div onclick="setBackgroundToGrey();" style="background-color: grey; color: white;">Click This Div</div>
+	<br>
+	
+	<input id="setbgcolor" type="button" value="Set background color">
+	<input id="bgcolor" type="text" list="colors" placeholder="lightgreen" value="lightgreen"><br>
+	<datalist id="colors">
+		<option label="lightcyan" value="lightcyan">
+		<option label="beige" value="beige">
+		<option label="yellow" value="yellow">
+	</datalist>
+	
+	<input type="button" id="getfullname" value="Lookup full name">
+	<input type="text" value="Mike" id="firstname" size="12">
+	<span id="fullname">fullname</span>
+	
+	
+	<script src="buttons.js"></script>
+</body>
+</html>
