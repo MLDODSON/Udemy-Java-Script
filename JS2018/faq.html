@@ -9,25 +9,54 @@
 			font-size: 3em;
 			text-align: center;
 		}
-		h3, div, p {
-			font-size: 2em;
-			text-align: center;
+		input {
+			font-size: 1.3em;
+			display: inline-block;
 		}
-		#message {
-			font-size: 1em;
+		article {
+			margin-top: 10px;
+		}
+		#question_list {
+			list-style: none;
+			font-weight: bold;
+			font-size: 1.2em;
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+			background-color: lightgrey;
+			color: blue;
+		}
+		.answer {
+			display: none;
+			color: black;
 		}
 		
 	</style>
 
-<body onclick="on_body_click();">
-	<h1>Javascript Basics</h1>
-	<h1>Events</h1>
-	<div id="main">
-		<div id="message"></div>
-		<input type="button" id="reset" value="Reset message">
-		<input id="infield" type="text"><br>
-	</div>
+<body>
+	<h1>Frequently Asked Questions (FAQ) List</h1>
+	<h2>Questions</h2>
+	<ol id="question_list"></ol>
+	<input type="button" id="show_all" value="Show All">
+	<input type="button" id="hide_all" value="Hide All">
 	
 	<script src="faq.js"></script>
 </body>
+	
+<script>
+	
+	window.onload = function()
+	{
+		// set the list of questions
+		insertQuestions();
+		
+		// bind events to buttons
+		document.getElementById("question_list").onclick = onQuestionClick;
+		
+		document.getElementById("show_all").onclick = onClickShowAll;
+		
+		document.getElementById("hide_all").onclick = onClickHideAll;
+	}
+	
+	
+</script>
+	
 </html>
