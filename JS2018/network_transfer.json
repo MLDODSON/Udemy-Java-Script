@@ -1,0 +1,14 @@
+[
+	{
+		"id": 1,
+		"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae mi neque. Proin odio ante, dignissim non nulla ut, laoreet dapibus quam. Maecenas in augue non ante porta placerat vitae ut justo. Integer quis libero ante. Donec vestibulum aliquam leo at iaculis. Ut pretium vehicula mi sed imperdiet. Etiam fringilla, arcu ac tincidunt varius, nisi ipsum porttitor nisl, at laoreet quam nibh eget arcu. Vestibulum porta nisi velit, at dapibus dui semper nec. Suspendisse eu sem id lectus pulvinar porta. Donec et cursus augue, et bibendum diam. Phasellus faucibus lorem nec nisl tristique, id ullamcorper velit feugiat. Mauris egestas dui semper mauris maximus, ac malesuada sem faucibus."
+	},
+	{
+		"id": 2,
+		"text": "Quisque mollis odio vel dui suscipit ultrices. Nunc sit amet tellus tellus. Mauris maximus dolor id dignissim convallis. Vivamus tristique augue maximus convallis suscipit. Phasellus et bibendum sem. Vestibulum massa ex, rutrum nec pulvinar ac, facilisis id eros. Donec eleifend et enim id cursus. Fusce non ante mattis, accumsan lacus sed, ultrices lacus. Nulla volutpat pharetra quam, sit amet pretium tellus placerat vitae. Morbi non justo viverra, tincidunt dolor a, efficitur est. Integer nibh sem, sollicitudin non ullamcorper ut, suscipit ut metus. Mauris ut tristique erat."
+	},
+	{
+		"id": 3,
+		"text": "Sed eleifend elit rhoncus turpis semper, eu condimentum arcu mollis. Etiam ultricies accumsan dolor in facilisis. Sed dignissim ac eros quis congue. Praesent fermentum, turpis id blandit congue, dui dui aliquam nulla, et molestie est est vitae elit. Quisque eu sollicitudin nunc. Phasellus egestas, nisl ac congue auctor, felis tellus pharetra nunc, non maximus tortor massa nec diam. Curabitur a eros maximus, porttitor ipsum eu, laoreet elit. Nunc sagittis nunc non tristique convallis. Nam accumsan ornare sem vel molestie. Nullam ac lacus cursus, consequat massa in, hendrerit magna. Sed arcu dui, posuere vel nulla eget, vulputate iaculis urna. Duis viverra dictum rutrum."
+	}
+];
