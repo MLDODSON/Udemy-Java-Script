@@ -26,9 +26,6 @@ function insertQuestions()
 
 
 
-
-
-
 function onClickShowAll()
 {
 	var questions = document.getElementById("question_list").children;

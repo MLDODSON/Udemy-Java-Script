@@ -1,0 +1,31 @@
+body {
+	background: url('lace.jpg');
+}
+
+.container {
+    margin: auto;
+    width: 1215px;
+    color: #03590d;
+    text-align: center;
+}
+
+header {
+    margin: 50px 0;
+}
+
+span {
+    font-size: 30px;
+    font-family: Merriweather;
+}
+
+h1 {
+    font-size: 55px;
+    margin-top: 10px;
+	color: #030a96;
+    font-family: Lobster;
+}
+
+a {
+    margin: 16px;
+    display: inline-block;
+}
