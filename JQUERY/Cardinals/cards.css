@@ -1,0 +1,64 @@
+body {
+    color: #ffff02;
+    margin: 50px 150px;
+	font-family: Open Sans;
+	background: url("img/stadium2.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-family: Roboto;
+    font-size: 36px;
+    font-weight: 400;
+	text-align: center;
+	color: black;
+    margin-bottom: 60px;
+}
+
+.panel {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 200;
+    border: 1px solid #f90202;
+}
+
+.question {
+    padding: 15px;
+    background-color: #f90202;
+}
+
+.question:hover {
+    color: white;
+}
+
+.arrow {
+    width: 17px;
+    height: 11px;
+    float: right;
+    margin-top: 5px;
+}
+
+.answer {
+    padding: 25px;
+	background-color: #eff1f4;
+}
+
+.collapse {
+    display: none;
+}
+
+#a1, #a2, #a3, #a4, #a5, #a6, #a7, #a8, #a9, #a10 {
+	color: black;
+	font-weight: bold;
+}
+
+footer {
+	text-align: center;
+	margin-top: 60px;
+}
