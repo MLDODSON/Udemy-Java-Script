@@ -4,13 +4,31 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Launch Pads</title>
+        <title>Slider</title>
         <!-- CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ 
         <link rel="stylesheet" type="text/css" href="slides.css">
 		
     </head>
 	<body>
+		
+		<div class="container">
+			<h1>Ring Kings - Heavyweight Champs</h1>
+			<div id="slideshow">
+			<div id="mask">
+				<img id="control_left" class="control" src="img/left-arrow copy.png">
+				<img id="control_right" class="control" src="img/right-arrow copy.png">
+				<div id="slide_container">
+				 	<img class="slide" src="img/Ali.jpg" alt="Ali">
+					<img class="slide" src="img/Bowe.jpg" alt="Bowe">
+					<img class="slide" src="img/Rocky.jpg" alt="Rocky">
+					<img class="slide" src="img/Tyson.jpg" alt="Tyson">
+				</div>
+				</div>
+				<input id="slider" type="range" min="1" max="4" value="1">
+			</div>
+		
+		</div>
         
 	<script src="slides.js"></script>
     </body>

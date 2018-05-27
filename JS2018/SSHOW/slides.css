@@ -1,0 +1,37 @@
+.slide {
+	width: 400px;
+	height: 300px;
+}
+
+#mask {
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+	margin-top: -40px;
+}
+
+.control {
+	width: 40px;
+	padding: 0px;
+	position: relative;
+}
+
+#control_left {
+	top: 120px;
+	left: 0px;
+}
+
+#control_right {
+	top: 120px;
+	left: 310px;
+}
+
+#slideshow {
+	background-color: lightgray;
+	display: inline-block;
+}
+
+#slider {
+	margin-left: 10px;
+	width: 90%;
+}
