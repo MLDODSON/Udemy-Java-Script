@@ -7,7 +7,7 @@ body {
 h1 {
 	text-align: center;
 	font-family: Frijole;
-	font-size: 6vw;
+	font-size: 5vw;
 	margin: 60px;
 	color: #fcf802;
 	animation: moveInRight 1s ease-out;
@@ -30,7 +30,7 @@ img {
 
 .boxing {
 	font-family: Vast Shadow;
-	font-size: 4.45vw;
+	font-size: 4vw;
 	color: #ff7700;
 }
 
