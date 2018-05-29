@@ -4,18 +4,51 @@
 <head>
 <meta charset="UTF-8">
 	
-<title></title>
-	
+<title>Canvas Drawing</title>
+	<link rel="stylesheet" type="text/css" href="draw.css">
 </head>
 	
 <body>
+	<h1>Drawing on Canvas</h1>
+	<h3>Canvas</h3>
+	<canvas id="myCanvas"></canvas>
 	
 	
 	
 	
 	
+	<script src="draw.js"></script>
 	
-	<script src="draw.js"></script>	
+	<script>
+	
+	window.onload = function() 
+	{
+		doDraw();
+	}
+	
+	var doDraw = function() 
+	{
+		// Get context
+		canvas = document.getElementById("myCanvas");
+		context = canvas.getContext('2d');
+		canvas.width = 400;
+		canvas.height = 200;
+		
+		// Draw square
+		drawSquare(context, 20, 20, 100, 100);
+		
+		// Draw triangle
+		drawTriangle(context, 140, 20, 100);
+		
+		// Draw circle
+		drawCircle(context, 260, 20, 50);
+		
+		// Draw text
+		drawText(context, "Hello Shapes World", 20, 180);
+	}
+	
+	
+	</script>
 </body>
 	
 </html>

@@ -1,0 +1,17 @@
+h1 {
+	font-size: 3em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.7em;
+}
+
+#myCanvas {
+	background-color: lightgray;
+	border: 1px solid black;
+}
+
+input {
+	margin: 5px;
+}
