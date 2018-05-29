@@ -1,0 +1,37 @@
+h1 {
+	font-size: 3em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.7em;
+}
+
+#color_target {
+	background-color: lightgrey;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+#color_picker {
+	background-color: lightblue;
+	display: inline-block;
+	display:  none;
+	width: 100px;
+/*  height: 100px;*/
+}
+
+.color {
+	color: white;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: arial;
+	padding: 5px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.color:hover {
+	border: 2px solid white;
+}
